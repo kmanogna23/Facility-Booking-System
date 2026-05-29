@@ -1,0 +1,290 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#eef3ff;
+}
+
+header{
+    background:#0b3d91;
+    color:white;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.navbar{
+    background:#062c6b;
+    padding:14px;
+    text-align:center;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    color:#a9c7ff;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:35px auto;
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#0b3d91;
+    margin-bottom:25px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    margin-top:15px;
+    margin-bottom:6px;
+    font-weight:600;
+}
+
+input, select{
+    padding:12px;
+    border:1px solid #c7d4f7;
+    border-radius:8px;
+    outline:none;
+    font-size:15px;
+}
+
+input:focus, select:focus{
+    border-color:#0b3d91;
+}
+
+button{
+    margin-top:25px;
+    padding:13px;
+    border:none;
+    border-radius:8px;
+    background:#0b3d91;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#062c6b;
+    transform:scale(1.02);
+}
+
+.table-container{
+    overflow-x:auto;
+    margin-top:25px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:#0b3d91;
+    color:white;
+    padding:14px;
+}
+
+table td{
+    padding:12px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+.action-btn{
+    padding:8px 12px;
+    margin:2px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.approve{
+    background:green;
+    color:white;
+}
+
+.reject{
+    background:red;
+    color:white;
+}
+
+footer{
+    margin-top:40px;
+    background:#0b3d91;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+.login-card{
+    width:400px;
+    margin:80px auto;
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+.login-card h2{
+    text-align:center;
+}
+
+.top-header{
+    background:#0b3d91;
+    padding:15px 30px;
+    color:white;
+    display:flex;
+    align-items:center;
+}
+
+.logo-section{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:white;
+    padding:5px;
+}
+
+.logo-section h1{
+    font-size:28px;
+}
+
+.login-body{
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+
+    url('background.jpg');
+
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+
+.login-overlay{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.login-card-new{
+
+    width:900px;
+    height:500px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    display:flex;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+.login-left{
+
+    width:50%;
+    background:#0b3d91;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+    text-align:center;
+}
+
+.login-logo{
+
+    width:120px;
+    margin-bottom:20px;
+}
+
+.login-left h1{
+
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+.login-left p{
+
+    font-size:18px;
+    line-height:1.5;
+}
+
+.login-right{
+
+    width:50%;
+    padding:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.login-right h2{
+
+    margin-bottom:25px;
+    color:#0b3d91;
+    text-align:center;
+}
+
+.login-right form{
+
+    display:flex;
+    flex-direction:column;
+}
+
+.login-right input,
+.login-right select{
+
+    margin-bottom:18px;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.login-right button{
+
+    padding:13px;
+    background:#0b3d91;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.login-right button:hover{
+
+    background:#062c6b;
+}
